@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans&family=Poppins:ital@1&family=Roboto+Mono&family=Sofia&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Gabarito', sans-serif;
+  /* font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Sofia', cursive; */
+  background-color: #e4f2e7;
+  
+}
+body, html {
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

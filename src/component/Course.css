@@ -1,0 +1,25 @@
+.circular-progress-container {
+    width: 220px;
+    height: 220px;
+    text-align: right;
+    margin-left: 250px;
+    padding-top: 30px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .circular-progress-container svg {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  #gradient {
+    stroke: url('#gradient');
+  }
+  

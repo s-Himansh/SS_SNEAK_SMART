@@ -1,0 +1,27 @@
+.circular-animation-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .circular-animation-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: rotateAround 6s infinite linear;
+  }
+
+
+  @keyframes rotateAround {
+    from {
+      transform-origin: center center;
+      transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+      transform-origin: center center;
+      transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }
